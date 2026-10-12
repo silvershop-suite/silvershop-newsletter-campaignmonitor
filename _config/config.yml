@@ -1,0 +1,13 @@
+---
+Name: silvershop-newsletter-campaignmonitor
+After:
+  - '#silvershop-newsletter'
+---
+# Register the Campaign Monitor provider. To use it, set SS_CAMPAIGNMONITOR_API_KEY + SS_CAMPAIGNMONITOR_LIST_ID
+# and switch the active provider to `campaignmonitor`:
+#
+#   SilverShop\Newsletter\Provider\NewsletterProviderRegistry:
+#     active: campaignmonitor
+SilverShop\Newsletter\Provider\NewsletterProviderRegistry:
+  providers:
+    campaignmonitor: '%$SilverShop\Newsletter\CampaignMonitor\CampaignMonitorProvider'

@@ -1,0 +1,3 @@
+en:
+  SilverShop\Newsletter\CampaignMonitor\CampaignMonitorProvider:
+    NAME: 'Campaign Monitor'
