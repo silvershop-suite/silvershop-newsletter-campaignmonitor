@@ -10,7 +10,7 @@ use SilverStripe\Core\Injector\Injectable;
 /**
  * Thin Campaign Monitor REST client (Guzzle). Deliberately minimal — just the subscriber add/update + unsubscribe
  * endpoints the provider needs — to avoid the official campaignmonitor/createsend SDK (which carries its own HTTP
- * stack). Mirrors silvershop/search-meilisearch's MeiliClient.
+ * stack). Mirrors silvershop-suite/search-meilisearch's MeiliClient.
  *
  * Campaign Monitor API v3.3, authenticated with HTTP Basic using the API key as the username (any password).
  * @see https://www.campaignmonitor.com/api/v3-3/

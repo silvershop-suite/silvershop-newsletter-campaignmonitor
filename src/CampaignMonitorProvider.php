@@ -12,11 +12,11 @@ use SilverStripe\Core\Environment;
 use SilverStripe\Core\Injector\Injectable;
 
 /**
- * Campaign Monitor implementation of silvershop/newsletter's {@see NewsletterProvider}. A thin mapping layer: it
+ * Campaign Monitor implementation of silvershop-suite/newsletter's {@see NewsletterProvider}. A thin mapping layer: it
  * turns a {@see NewsletterSubscription} into a Campaign Monitor list subscriber (add/update + unsubscribe via
  * {@see CampaignMonitorClient}) and maps Campaign Monitor webhooks back onto the local subscription status.
  *
- * Configuration comes from the environment (mirroring silvershop/search-meilisearch):
+ * Configuration comes from the environment (mirroring silvershop-suite/search-meilisearch):
  *   SS_CAMPAIGNMONITOR_API_KEY       the Campaign Monitor API key (HTTP Basic username)
  *   SS_CAMPAIGNMONITOR_LIST_ID       the target list id
  *   SS_CAMPAIGNMONITOR_WEBHOOK_SECRET  optional shared secret required on the webhook URL (?secret=…)
