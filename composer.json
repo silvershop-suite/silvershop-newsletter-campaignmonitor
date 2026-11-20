@@ -18,7 +18,7 @@
         "php": "^8.3",
         "silverstripe/framework": "^6",
         "silverstripe/cms": "^6",
-        "silvershop-suite/newsletter": "dev-main",
+        "silvershop-suite/newsletter": "^1.1",
         "guzzlehttp/guzzle": "^7"
     },
     "require-dev": {
@@ -33,12 +33,6 @@
         "lint": "vendor/bin/phpcs",
         "lint:fix": "vendor/bin/phpcbf"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/silvershop-suite/silvershop-newsletter.git"
-        }
-    ],
     "extra": {
         "branch-alias": {
             "dev-main": "1.x-dev"
